@@ -1,0 +1,31 @@
+{
+  "name": "theflowui",
+  "version": "1.0.1",
+  "bin": {
+    "flowui": "./bin/index.js"
+  },
+  "description": "This is the official CLI for the FlowUI library.",
+  "keywords": [
+    "CLI"
+  ],
+  "homepage": "https://github.com/KushalXCoder/flowui-cli#readme",
+  "bugs": {
+    "url": "https://github.com/KushalXCoder/flowui-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KushalXCoder/flowui-cli.git"
+  },
+  "license": "ISC",
+  "author": "Kushal",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.5",
+    "commander": "^14.0.3",
+    "fs-extra": "^11.3.3"
+  }
+}
