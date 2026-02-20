@@ -1,8 +1,8 @@
 {
   "name": "theflowui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "bin": {
-    "flowui": "./bin/index.js"
+    "theflowui": "./index.js"
   },
   "description": "This is the official CLI for the FlowUI library.",
   "keywords": [
